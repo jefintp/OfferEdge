@@ -1,2 +1,3 @@
-# Quotely
+# OfferEdge
+
 A reverse bargaining marketplace
