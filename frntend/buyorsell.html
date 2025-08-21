@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Select Role – OfferEdge</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            inter: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            primary: '#2563eb',
+          },
+        },
+      },
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-blue-50 text-gray-800">
+
+  <!-- 🌟 Navbar -->
+  <header class="bg-white shadow-sm">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold text-blue-600">OfferEdge</h1>
+     
+    </div>
+  </header>
+
+  <!-- 🔄 Role Selection -->
+  <main class="flex items-center justify-center min-h-screen px-4">
+    <div class="bg-white shadow-lg rounded-xl p-8 w-full max-w-md text-center">
+      <h2 class="text-2xl font-bold text-gray-800 mb-4">What would you like to do?</h2>
+      <p class="text-gray-600 mb-8">Choose your role to continue:</p>
+
+      <div class="space-y-4">
+        <a href="/post-requirement.html"
+          class="block w-full bg-blue-600 text-white py-3 rounded-md font-semibold hover:bg-blue-700 transition">
+          👉 I'm a Buyer – Post a Requirement
+        </a>
+        <a href="/start-bidding.html"
+          class="block w-full bg-gray-100 text-blue-600 py-3 rounded-md font-semibold hover:bg-gray-200 transition">
+          🛍️ I'm a Seller – Start Bidding
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- 📎 Footer -->
+  <footer class="bg-gray-100 py-6 mt-12">
+    <div class="max-w-6xl mx-auto px-6 text-sm text-gray-600 text-center">
+      &copy; 2025 OfferEdge. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
